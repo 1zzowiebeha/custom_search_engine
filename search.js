@@ -37,5 +37,5 @@ window.addEventListener("DOMContentLoaded", function() {
         e.preventDefault(); // before the code
 
         executeQuery();
-    })
+    });
 });
