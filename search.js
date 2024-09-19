@@ -12,12 +12,12 @@ const social_media_list = [
 ]
 
 function antiSocialMediaPattern() {
-    final_query = ''
+    final_query = '';
     for (const site of social_media_list) {
         final_query += ` -site:${site}`;
     }
     
-    return final_query
+    return final_query;
 }
 
 function executeQuery() {
