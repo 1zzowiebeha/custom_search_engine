@@ -30,6 +30,8 @@ function executeQuery() {
 }
 
 
+// Handle keyboard shortcut and button form submission from input field
+//      and submit button field.
 window.addEventListener("DOMContentLoaded", function() {
     form_element.addEventListener("submit", function(e) {
         e.preventDefault(); // before the code
