@@ -1,6 +1,6 @@
-var form_element = document.getElementById('form');
-var q_input_element = document.getElementById('query');
-var search_button_element = document.getElementById('search-button');
+const form_element = document.getElementById('form');
+const q_input_element = document.getElementById('query');
+const search_button_element = document.getElementById('search-button');
 
 const social_media_list = [
     'facebook.com',
